@@ -7,8 +7,8 @@ def initialized(name)
 end
 
 def add_student(grade, student_name)
-  roster[grade].add_student.each do |student_name, grade|
-   roster[grade] << (student_name, grade)
+  roster[grade].add_student.each do |student_name|
+   roster[grade] << student_name
  end
 end
 
