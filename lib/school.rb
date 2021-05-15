@@ -11,11 +11,11 @@ end
 #    roster[grade] << student_name
 #  end
 # end
-# 
+#
 # def grade(grade)
 #   roster[grade]
 # end
-# 
+#
 # def sort(grade, student_name)
 #   sorted = { }
 #   roster.each do |grade, student_name|
@@ -23,5 +23,5 @@ end
 #   end
 #   sorted
 # end
-# 
+#
 # end
