@@ -2,7 +2,7 @@ class School
 
 def initialized(name)
   @name = name
-end 
+end
 
 GRADES = [ ]
 
@@ -19,5 +19,5 @@ def grade(grade)
 end
 
 def sort(name, grade)
-  student.sort 
+  student.sort
 end
