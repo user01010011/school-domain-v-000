@@ -1,5 +1,4 @@
 class School
-
   attr_accessor :name, :roster
 
 def initialized(name)
@@ -9,7 +8,7 @@ end
 
 def add_student(grade, student_name)
   roster[grade].add_student.each do |student_name, grade|
-   roster[grade] << (name, grade)
+   roster[grade] << (student_name, grade)
  end
 end
 
